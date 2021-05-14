@@ -11,5 +11,3 @@ def fibonachhi(i):
 	return sum
 def golden_ratio(i):
 	print (fibonachhi(i + 1) / fibonachhi(i))
-
-golden_ratio(2)

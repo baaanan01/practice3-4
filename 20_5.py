@@ -9,6 +9,3 @@ def lucky(ticket):
         return sum(x[:3] ) == sum(x[3:] )
  
     return  'Счастливый' if  summa(ticket) == summa(lastTicket) else 'Несчастливый'
-
-lastTicket = 123321                                       
-print(lucky(100001))
